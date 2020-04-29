@@ -18,6 +18,7 @@ int main()
     cin>>arr[i];
   }
   sort(arr, arr+n);
+  //sets k element 0 from front and back
   for(int i=1;i<=k;i++)
   {
     arr[i-1]=arr[n-i]=0;
